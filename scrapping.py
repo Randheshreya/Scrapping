@@ -16,7 +16,7 @@ from langchain_core.documents import Document
 
 
 load_dotenv()
-API_KEY = os.getenv('OPENAI_API_KEY')
+API_KEY = os.getenv('Langchain')
 
 st.set_page_config(page_title="Laptop AI Assistant",layout="wide")
 st.title("Laptop AI Assistant with Web Scrapping")
