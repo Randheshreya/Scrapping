@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+venv/
+env/
+.ai-env/
+.venv/
+
+# Environment variables
+.env
+
+# Streamlit
+.streamlit/
+
+# Data / cache
+*.csv
+*.xlsx
+*.json
+*.db
+
+# FAISS / vector store files
+*.faiss
+*.index
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
